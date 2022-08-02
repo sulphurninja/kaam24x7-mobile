@@ -1,7 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.kaam24x7.app">
+   <uses-permission android:name="android.permission.INTERNET"/>
    <application
-        android:label="amazon_clone"
+        android:label="kaam24x7"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
@@ -30,6 +31,6 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
-        <uses-permission android:name="android.permission.INTERNET"/>
+        
     </application>
 </manifest>
