@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 String uri =
-    'http://192.168.204.26:3000'; // Please enter your local Ip  or //'https://arpa-amazon-clone.herokuapp.com'; //
+    'https://kaam24x7mobile.herokuapp.com/'; // Please enter your local Ip  or //'https://arpa-amazon-clone.herokuapp.com'; //
 
 class GlobalVariables {
   // COLORS
