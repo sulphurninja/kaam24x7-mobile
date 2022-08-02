@@ -106,7 +106,7 @@ class _HomeScreenState extends State<HomeScreen> {
             Padding(
               padding: const EdgeInsets.all(8),
               child: Image.network(
-                'https://m.media-amazon.com/images/I/71DIdPcx3ML._SR1050,1050_.jpg',
+                'https://res.cloudinary.com/kaam-24x7/image/upload/v1659455368/Your_Furniture_tells_a_story...._holkwm.png',
                 width: double.maxFinite,
                 fit: BoxFit.fill,
                 height: 380,
