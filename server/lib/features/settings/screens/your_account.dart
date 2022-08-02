@@ -1,6 +1,7 @@
 import 'package:kaam24x7/common/widgets/search_nav_bar.dart';
 import 'package:kaam24x7/features/address/screens/address_list_screen.dart';
 import 'package:kaam24x7/features/address/screens/new_address_screen.dart';
+import 'package:kaam24x7/features/account/services/acount_services.dart';
 import 'package:kaam24x7/features/order/screens/your_orders_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:kaam24x7/features/settings/screens/settings_screen.dart';
@@ -58,7 +59,29 @@ class _YourAccountScreenState extends State<YourAccountScreen> {
                 height: 15,
               ),
               const AccountHeader(title: 'Account Settings'),
-              const SettingBottomView(),
+              OutlinedButton(
+                onPressed: () => {
+                  Navigator.pushNamed(context, YourOrderScreen.routName),
+                },
+                child: const Text(
+                  'Orders',
+                  style: TextStyle(
+                    color: Colors.black87,
+                  ),
+                ),
+              ),
+              OutlinedButton(
+                onPressed: () {
+                  AccountServices().logOut(context);
+                  const Text('Sign Out');
+                },
+                child: const Text(
+                  'Sign Out',
+                  style: TextStyle(
+                    color: Colors.black87,
+                  ),
+                ),
+              ),
               const SizedBox(
                 height: 10,
               ),

@@ -14,19 +14,19 @@ class TopCategoriestwo extends StatelessWidget {
   Widget build(BuildContext context) {
     return (SizedBox(
       height: 600,
-      width: 500,
+      width: 400,
       child: ListView.builder(
         itemCount: 9,
         scrollDirection: Axis.vertical,
-        itemExtent: 200,
+        itemExtent: 150,
         itemBuilder: (context, index) {
           return GestureDetector(
             onTap: () => navigateToCategory(
                 context, GlobalVariables.categoryImages[index]['title']!),
-            child: Column(
+            child: Stack(
               children: [
                 Positioned(
-                  left: 40,
+                  left: 250,
                   child: Image.asset(
                     GlobalVariables.categoryImages[index]['image']!,
                     fit: BoxFit.cover,
