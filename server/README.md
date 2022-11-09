@@ -1,4 +1,4 @@
-# Flutter Amazon Clone
+# Flutter Ecommerce - Amazon Clone
 <p align="center">
  <img width="100px" src="https://res.cloudinary.com/rkcloud/image/upload/v1657523587/j5moz55tojlhhhvkjso4.png" align="center" alt="" />
  <h2 align="center">Fullstack Flutter Amazon Clone  </h2>
@@ -58,7 +58,7 @@ This project is a Full stack app for Amazon clone with Admin panel and Server si
     
 ### Requirements
 
-* Get a free API Key at https://cloudinary.com/ for store products image
+*  API Key at https://cloudinary.com/ to store products image
 * Update Cloud name and Upload preset at ``` lib -> features -> admin -> services -> admin_services.dart ```
 * ![image](https://user-images.githubusercontent.com/3157579/178201535-ca05d27a-4b32-4586-b2eb-fdbee71447f0.png)
 * Create MongoDB at https://cloud.mongodb.com/  and Add your connection string into your application code
